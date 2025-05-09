@@ -5,9 +5,14 @@ basic:
         staging: ''
         development: ''
     breakpoints:
+        - 320
         - 640
+        - 768
         - 1024
+        - 1080
         - 1200
+        - 1440
+        - 1920
     pages:
         - /
         - shippers
@@ -78,7 +83,19 @@ advanced:
     cookies: ''
     custom_js: ''
     custom_css: ''
-    mock_content: ''
+    mock_content:
+        - { selector: '', type: title }
+    login:
+        type: none
+        click_element: false
+        click_element_selector: ''
+        login_url: ''
+        username: ''
+        password: ''
+        username_selector: ''
+        password_selector: ''
+        submit_selector: ''
+        after_login_selector: ''
     performance:
         workers_production: 30
         workers_nonproduction: 10
