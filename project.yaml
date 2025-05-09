@@ -1,0 +1,87 @@
+basic:
+    name: RXO
+    environments:
+        production: 'https://rxo.com/'
+        staging: ''
+        development: ''
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - shippers
+        - get-a-quote
+        - shippers/technology
+        - shippers/truckload
+        - shippers/less-than-truckload
+        - shippers/intermodal
+        - shippers/peak-capacity
+        - shippers/expedited
+        - shippers/cross-border
+        - shippers/freight-forwarding/ocean-shipping
+        - shippers/expedited/air-shipping
+        - shippers/last-mile
+        - shippers/pool-point
+        - shippers/last-mile/same-day-messenger-service
+        - shippers/warehouse-management
+        - shippers/managed-transportation
+        - shippers/dedicated
+        - shippers/managed-transportation/control-tower
+        - shippers/managed-transportation/rfp-management
+        - shippers/project-freight
+        - shippers/freight-forwarding/international/customs-brokerage
+        - carriers
+        - carriers/rxo-extra/fuel-card-program
+        - carriers/technology
+        - carriers/rxo-extra
+        - carriers/dedicated-lanes
+        - carriers/last-mile-contract-carriers
+        - carriers/peak-season
+        - carriers/owner-operator-expedited
+        - news
+        - resources
+        - resources/shipper
+        - resources/carrier
+        - resources/case-study
+        - resources/research
+        - about-us
+        - about-us/leadership
+        - join-our-team
+        - about-us/esg
+        - contact-us
+        - track
+        - get-started
+        - shippers/freight-forwarding
+        - talk-to-a-specialist
+        - news/rxo-announces-first-quarter-results
+        - news/rxo-leader-named-to-2025-top-women-to-watch-in-transportation-list
+        - news/recipients-of-2025-pros-to-know-award
+        - business-terms
+        - terms-and-conditions-coyote-go
+        - privacy-policy
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 15
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
